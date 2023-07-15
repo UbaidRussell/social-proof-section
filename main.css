@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    font-family: 'League Spartan', sans-serif;
+    flex-wrap: wrap;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -8,3 +13,16 @@
   .paragraph-rating{
     display:inline-block;
   }
+
+  #about{
+    width: 700px;
+    height: 300px;
+    background-color: whitesmoke;
+  }
+    #about h1{
+        font-size: 40px;
+        font-weight: 700;
+        color: hsl(228, 45%, 44%);
+        margin: 20px;
+        padding:20px;
+    }
