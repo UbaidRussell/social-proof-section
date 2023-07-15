@@ -11,7 +11,6 @@ body{
     align-items: center;
     height: 100vh;
     width: 100vw;
-
 }
 .attribution {
     font-size: 11px;
@@ -27,12 +26,24 @@ body{
   #about{
     width: 700px;
     height: 300px;
-    background-color: whitesmoke;
+    margin-left: 200px;
   }
     #about h1{
-        font-size: 40px;
+        font-size: 60px;
         font-weight: 700;
-        color: hsl(228, 45%, 44%);
+        color:hsl(300, 43%, 22%);
         margin: 20px;
         padding:20px;
+        width: 400px;
     }
+
+    #about p{
+        font-size: 20px;
+        font-weight: 400;
+        color:hsl(288, 16%, 44%);
+        margin: 20px;
+        padding:20px;
+        width: 500px;
+    }
+
+    
