@@ -2,6 +2,16 @@ body{
     display: flex;
     font-family: 'League Spartan', sans-serif;
     flex-wrap: wrap;
+    background-image: url(images/bg-pattern-top-desktop.svg ), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: hsl(0, 0%, 98%);
+    background-size: 50%, 50%;
+    background-attachment: fixed;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
 }
 .attribution {
     font-size: 11px;
