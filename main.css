@@ -139,7 +139,46 @@ body{
 .rating-section-part-three #star{
     margin-left:5px;
 }
+/* media querie for #rating on mobile */
+@media screen and (min-width: 100px) and (max-width: 600px){
+    .rating-section-part-one{
+        width:350px;
+        padding:10px;
+        text-align: center;
+    }
+    .rating-section-part-one p{
+        margin-left:10px;
+        display:block;
+        margin: 10px;
+    }
 
+    .rating-section-part-two{
+        width:350px;
+        padding:10px;
+        margin-left:0px;
+        text-align: center;
+    }
+    .rating-section-part-two p{
+        margin-left:10px;
+        display: block;
+        margin:10px;
+    }
+
+
+    
+    .rating-section-part-three{
+        width:350px;
+        padding:10px;
+        margin-left:0px;
+        text-align: center;
+        margin-bottom:20px;
+    }
+    .rating-section-part-three p{
+        margin-left:10px;
+        display: block;
+        margin:10px;
+    }
+}
 
 
 
