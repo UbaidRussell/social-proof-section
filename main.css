@@ -83,14 +83,6 @@ body{
             text-align: center;
         }
     }
-/*Media query for #about section on laptops*/
-@media screen and (min-width : 1224px) and (max-width : 1824px){
-    #about{
-        width: 500px;
-        margin-left: 50px;
-      }
-}
-
     
 .rating-section-part-one{
     background-color:hsl(300, 24%, 96%);
@@ -146,4 +138,17 @@ body{
 }
 .rating-section-part-three #star{
     margin-left:5px;
+}
+
+
+
+
+
+
+/*Media query for #about section on laptops*/
+@media screen and (min-width : 1224px) and (max-width : 1824px){
+    #about{
+        width: 500px;
+        margin-left: 50px;
+      }
 }
