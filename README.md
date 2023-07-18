@@ -17,6 +17,8 @@ This is our solution to the [Social proof section challenge on Frontend Mentor](
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
+        
+        This is a simple social proof section. We've used flexbox to make it responsive. We've also used a few media queries to make it responsive for mobile devices.
 
 ### The challenge
 
@@ -41,37 +43,29 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 ### What I learned
 
+    We've been working on accessibility so this code is a bit different from the original. We've added a few aria attributes and a few roles to make the site more accessible.
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+    <div role="presentation" class="rating-section-part-one">
 ```
 
 ### Continued development
+    We'll keep building cool websites
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 1](https://stackoverflow.com/questions/13637106/what-are-the-best-width-ranges-for-media-queries) -  This helped me for media queries. I really liked this pattern and will use it going forward.
+
+- [Example resource 2]() - Nothing yet
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [UbaidRussell](https://www.ubaidrussell.com)
 - Frontend Mentor - [@UbaidRussell](https://www.frontendmentor.io/profile/UbaidRussell)
 - Twitter - [@UbaidRussell](https://www.twitter.com/UbaidRussell)
 
 ## Acknowledgments
-
-
+    
+        Thanks to Frontend Mentor for providing us with such a great platform to practice our skills.
