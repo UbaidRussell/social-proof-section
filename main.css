@@ -177,7 +177,46 @@ body{
     }
 }
 
-
+/*Review section*/
+#review{
+    display: flex;
+    gap: 30px;
+    margin: auto;
+}
+#review h3{
+    color: white;
+    margin-bottom: 10px;
+}
+#review h4{
+    color:hsl(333, 80%, 67%);
+    margin: 0;
+    margin-bottom: 20px;
+}
+#review p{
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+#review img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    float: left;
+}
+.written-review{
+    width: 450px;
+    height: 200px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding:30px;
+}
 
 
 
