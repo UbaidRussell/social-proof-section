@@ -238,10 +238,19 @@ body{
 
 
 
-/*Media query for #about section on laptops*/
+/*Media query for #about and #review section on laptops*/
 @media screen and (min-width : 1224px) and (max-width : 1824px){
     #about{
         width: 500px;
         margin-left: 50px;
       }
+      .written-review{
+        width: 300px;
+        height: 275px;
+        margin: 10px;
+        margin-top:70px;
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 10px;
+        padding:30px;
+    }
 }
