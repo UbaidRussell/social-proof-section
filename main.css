@@ -217,6 +217,24 @@ body{
     border-radius: 10px;
     padding:30px;
 }
+/*Media query for #review section on mobile */
+@media screen and (min-width: 100px) and (max-width: 600px){
+    #review{
+    flex-wrap: wrap;
+    }
+    .written-review{
+        width: 300px;
+        height:250px;
+        margin: auto;
+        margin-top:20px;
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 10px;
+        padding:30px;
+    }
+    #review p{
+        padding-bottom: 50px;
+    }
+}
 
 
 
