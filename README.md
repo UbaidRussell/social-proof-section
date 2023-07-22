@@ -38,6 +38,8 @@ Users should be able to:
 
 ## My process
 
+    We first started by developing a section of the website one part at a time. Every part was developed separately with its needed media query being featured right under it's section in out main.css and then we combined them together. We used flexbox to make the website responsive. We also used a few media queries to make it responsive for mobile devices.
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -58,7 +60,6 @@ Users should be able to:
 
 - [Example resource 1](https://stackoverflow.com/questions/13637106/what-are-the-best-width-ranges-for-media-queries) -  This helped me for media queries. I really liked this pattern and will use it going forward.
 
-- [Example resource 2]() - Nothing yet
 
 ## Author
 
