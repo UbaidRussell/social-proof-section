@@ -217,6 +217,13 @@ body{
     border-radius: 10px;
     padding:30px;
 }
+.second{
+    margin-top: 50px;
+}
+.third{
+    margin-top: 100px;
+}
+
 /*Media query for #review section on mobile */
 @media screen and (min-width: 100px) and (max-width: 600px){
     #review{
@@ -252,5 +259,11 @@ body{
         background-color: hsl(300, 43%, 22%);
         border-radius: 10px;
         padding:30px;
+    }
+    .second{
+        margin-top: 100px;
+    }
+    .third{
+        margin-top: 150px;
     }
 }
