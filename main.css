@@ -36,7 +36,7 @@ body{
   #about{
     width: 700px;
     height: 300px;
-    margin-left: 200px;
+    margin-left: 150px;
   }
     #about h1{
         font-size: 60px;
@@ -92,7 +92,7 @@ body{
     width:450px;
     padding-left: 20px;
     border-radius: 10px;
-    padding-top:5px;
+    padding-top:5px;    
 }
 .rating-section-part-one p{
     margin-left:40px;
