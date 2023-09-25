@@ -13,6 +13,7 @@ body{
     align-items: center;
     height: 100vh;
     width: 100vw;
+    contain: strict;
 }
 /* media querie for body on mobile*/
 @media screen and (min-width: 100px) and (max-width: 600px){
